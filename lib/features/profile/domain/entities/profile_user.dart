@@ -11,6 +11,7 @@ class ProfileUser extends AppUser {
     required this.profilePictureUrl,
   });
 
+  //Method to update profile
   ProfileUser copyWith({String? bio, String? profilePictureUrl}) {
     return ProfileUser(
       id: id,
